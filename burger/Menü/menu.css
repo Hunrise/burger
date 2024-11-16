@@ -1,0 +1,65 @@
+body{
+    background-color:goldenrod  
+}
+.main{
+        width: 1500px;
+        margin:25px auto;
+        padding: 50px;
+        
+    }
+    .banner{
+        text-align: center;
+        background-color: burlywood;
+    }
+    .banner h1{
+        font-size: 50px;
+        background-color: darkred;
+        text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px gray;
+    }
+    nav{
+        background-color: chocolate;
+        margin: 25px 0;
+        font-size: large;
+        font-weight: bold;
+    }
+    nav ul{ 
+        list-style-type: none;
+        overflow: hidden;
+    }
+    nav li{
+        float: left;
+        margin-left: 30px;
+        padding: 15px;
+    }
+    nav a{
+        text-decoration: none;
+        display: block;
+    }
+    nav li:hover{
+        background-color: darkseagreen;  
+        border-radius: 25px;  
+    }
+    nav a:hover{
+        color:rgb(231, 15, 15)
+    }
+    .content{background-color: whitesmoke;
+    
+    }
+    div{
+        border-style: double;
+        border-radius: 30px;
+    }
+    .lezaro{
+        clear: both;
+        border:none;
+    }
+    .active{
+        color:aliceblue;
+        background-color: darkseagreen;  
+        border-radius: 25px;
+    }
+    nav ul li ul{
+        display:none;
+        position: absolute;
+       background-color: blanchedalmond;
+    }
